@@ -15,8 +15,13 @@ function handleRequest(request, response){
 var server = http.createServer(handleRequest);
 
 // Listener (starts our server)
-server.listen(PORT, function(){
+server.listen(PORT1, function(){
 
-    console.log("I am now listening at PORT: " + PORT);
+    console.log("I am now listening at PORT: " + PORT1);
+
+})
+server.listen(PORT2, function(){
+
+    console.log("I am now listening at PORT: " + PORT2);
 
 })
